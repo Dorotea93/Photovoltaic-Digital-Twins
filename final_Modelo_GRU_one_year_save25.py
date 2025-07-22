@@ -1,4 +1,4 @@
-# Funciona y registrado - Modelo GRU
+# 1Funciona y registrado - Modelo GRU
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -174,7 +174,7 @@ df_results = pd.DataFrame({
 # Guardar CSV según el modelo
 df_results.to_csv('gru_results.csv', index=False)   # Para GRU
 
-# Métricas del modelo matemático (valores de tu artículo)
+# Métricas del modelo matemático 
 math_mse = 0.047805
 math_rmse = 0.21864
 math_mae = 0.07521
